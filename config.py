@@ -3,7 +3,7 @@ import os
 API_ID = int(os.environ.get("API_ID", None))
 API_HASH = os.environ.get("API_HASH", None) 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://dayava7312:bqyb4KhZrIH2h7js@cluster0.oehalsl.mongodb.net/?retryWrites=true&w=majority")
 BOT_USERNAME = os.environ.get("BOT_USERNAME") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL")
 OWNER_ID = int(os.environ.get("OWNER_ID"))
